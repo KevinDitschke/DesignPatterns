@@ -1,8 +1,8 @@
 # Concepts and Design Patterns
 
-###Recapping some design patterns and important principles
+### Recapping some design patterns and important principles
 
-##SOLID
+## SOLID
 
 #### Single-responsiblity
 "There should never be more than one reason for a class to change." In other words, every class should have only one responsibility.
@@ -16,7 +16,7 @@ Interfaces should only require the consumer to implement what they really need.
 High level functionality should not know about implementation details of low level implementations (For example how is the data stored in the database).
 It needs to be abstracted via Interfaces
 
-##ACID
+## ACID
 
 #### Atomicy
 A transaction is a single unit and either completely succeeds or completely fails
@@ -27,7 +27,7 @@ Transactions are isolated from each other. Even if they arrive concurrently they
 #### Durability
 If a transaction is a committed it will stay committed even if the database system fails in case of a power outage or crash
 
-##CAP Theorem
+## CAP Theorem
 
 #### Consistency
 Every client views the same data. Every node in distributed cluster recieves same data.
